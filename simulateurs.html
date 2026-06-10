@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulateurs gratuits : épargne OPEX, intérêts composés, pension militaire | La Solde</title>
+  <meta name="description" content="3 simulateurs gratuits pour militaires : épargne en OPEX, intérêts composés et estimation de pension militaire. Sans inscription, résultats immédiats.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-root="">
+<header>
+  <div class="container nav">
+    <a href="index.html" class="logo">LA <span>SOLDE</span></a>
+    <button class="burger" aria-label="Menu">☰</button>
+    <ul class="nav-links">
+      <li><a href="guides/solde-militaire.html">Solde</a></li>
+      <li><a href="guides/primes-indemnites.html">Primes</a></li>
+      <li><a href="guides/impots-opex.html">Impôts</a></li>
+      <li><a href="guides/retraite-militaire.html">Retraite</a></li>
+      <li><a href="guides/investir-immobilier.html">Immobilier</a></li>
+      <li><a href="guides/epargne-placements.html">Épargne</a></li>
+      <li><a href="simulateurs.html" class="active">Simulateurs</a></li>
+      <li><a href="comparatifs.html" class="nav-cta">Comparatifs</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="article-header">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Accueil</a> › Simulateurs</div>
+    <h1>Simulateurs finance pour militaires</h1>
+    <p>Trois outils gratuits, sans inscription. Les calculs s'effectuent dans votre navigateur : aucune donnée n'est transmise.</p>
+  </div>
+</div>
+
+<div class="article-body" style="max-width: 860px;">
+
+  <div class="sim-card" id="opex">
+    <h2>🪖 Simulateur d'épargne OPEX</h2>
+    <p class="sim-desc">Estimez votre capacité d'épargne sur une mission, en tenant compte de la majoration ISSE (exonérée d'impôt).</p>
+    <div class="sim-grid">
+      <div class="sim-field">
+        <label for="op-solde">Solde nette mensuelle (€)</label>
+        <input type="number" id="op-solde" placeholder="2200" value="2200">
+      </div>
+      <div class="sim-field">
+        <label for="op-mois">Durée de la mission (mois)</label>
+        <input type="number" id="op-mois" placeholder="4" value="4">
+      </div>
+      <div class="sim-field">
+        <label for="op-zone">Coefficient de zone (ISSE)</label>
+        <select id="op-zone">
+          <option value="1.4">Zone à sujétion modérée (×1,4)</option>
+          <option value="1.5" selected>Zone standard OPEX (×1,5)</option>
+          <option value="1.8">Zone à risque élevé (×1,8)</option>
+        </select>
+      </div>
+      <div class="sim-field">
+        <label for="op-depenses">Dépenses restantes en France (€/mois)</label>
+        <input type="number" id="op-depenses" placeholder="800" value="800">
+      </div>
+    </div>
+    <button class="btn btn-primary" onclick="simOpex()">Calculer mon épargne</button>
+    <div class="sim-result" id="op-result">
+      <span class="big"></span>
+      <p class="detail"></p>
+    </div>
+    <div class="callout callout-tip" style="margin-bottom:0">
+      <strong>💡 Et après ?</strong>
+      Ne laissez pas cette épargne dormir sur votre compte courant : consultez notre <a href="guides/epargne-placements.html">guide épargne</a> et la règle des 3 tiers.
+    </div>
+  </div>
+
+  <div class="sim-card" id="interets">
+    <h2>📊 Calculateur d'intérêts composés</h2>
+    <p class="sim-desc">Visualisez ce que devient votre épargne avec des versements mensuels réguliers — l'arme secrète des patrimoines qui se construisent tôt.</p>
+    <div class="sim-grid">
+      <div class="sim-field">
+        <label for="ci-initial">Capital de départ (€)</label>
+        <input type="number" id="ci-initial" placeholder="5000" value="5000">
+      </div>
+      <div class="sim-field">
+        <label for="ci-mensuel">Versement mensuel (€)</label>
+        <input type="number" id="ci-mensuel" placeholder="200" value="200">
+      </div>
+      <div class="sim-field">
+        <label for="ci-taux">Rendement annuel (%)</label>
+        <input type="number" id="ci-taux" placeholder="5" value="5" step="0.5">
+      </div>
+      <div class="sim-field">
+        <label for="ci-annees">Durée (années)</label>
+        <input type="number" id="ci-annees" placeholder="20" value="20">
+      </div>
+    </div>
+    <button class="btn btn-primary" onclick="simInterets()">Calculer</button>
+    <div class="sim-result" id="ci-result">
+      <span class="big"></span>
+      <p class="detail"></p>
+    </div>
+    <div class="aff-box" style="margin-bottom:0">
+      <div class="aff-text">
+        <span class="aff-badge">Partenaire</span>
+        <h4>Passez à l'action avec une assurance-vie sans frais d'entrée</h4>
+        <p>Versements programmés dès 100 €/mois, gestion libre ou pilotée.</p>
+      </div>
+      <a class="btn btn-cta" data-aff="linxea" href="comparatifs.html">Voir les contrats →</a>
+    </div>
+  </div>
+
+  <div class="sim-card" id="pension">
+    <h2>🎖️ Estimateur de pension militaire</h2>
+    <p class="sim-desc">Première estimation de votre pension à liquidation immédiate, bonifications de campagne incluses.</p>
+    <div class="sim-grid">
+      <div class="sim-field">
+        <label for="pe-solde">Solde indiciaire brute mensuelle (€)</label>
+        <input type="number" id="pe-solde" placeholder="2600" value="2600">
+      </div>
+      <div class="sim-field">
+        <label for="pe-services">Années de services effectifs</label>
+        <input type="number" id="pe-services" placeholder="20" value="20">
+      </div>
+      <div class="sim-field">
+        <label for="pe-bonif">Années de bonifications (campagnes, 1/5e…)</label>
+        <input type="number" id="pe-bonif" placeholder="5" value="5">
+      </div>
+    </div>
+    <button class="btn btn-primary" onclick="simPension()">Estimer ma pension</button>
+    <div class="sim-result" id="pe-result">
+      <span class="big"></span>
+      <p class="detail"></p>
+    </div>
+    <div class="callout callout-warn" style="margin-bottom:0">
+      <strong>⚠️ Estimation simplifiée</strong>
+      Ce calcul ne tient pas compte de la décote, de la surcote, du minimum garanti ni des spécificités de votre génération. Pour une simulation officielle : retraitesdeletat.gouv.fr et l'ENSAP. Pour combler l'écart primes/pension, voyez le <a href="guides/retraite-militaire.html">guide retraite</a>.
+    </div>
+  </div>
+
+  <div class="disclosure">
+    <strong>Transparence :</strong> certains liens de cette page sont affiliés. Les simulateurs fournissent des estimations indicatives qui ne constituent pas un conseil personnalisé.
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-bottom">© 2026 La Solde — <a href="mentions-legales.html">Mentions légales</a> · <a href="mentions-legales.html#affiliation">Politique d'affiliation</a></div>
+  </div>
+</footer>
+<script src="assets/js/affiliates.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
