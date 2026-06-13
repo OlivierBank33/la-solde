@@ -1,4 +1,4 @@
-# La Solde — Site finance pour militaires
+# Ma Solde — Site finance pour militaires
 
 Site statique HTML/CSS/JS de conseils financiers et d'affiliation destiné aux militaires français.
 

@@ -1,4 +1,4 @@
-# Guide de monétisation — La Solde
+# Guide de monétisation — Ma Solde
 
 Ce document vous explique pas à pas comment activer les liens d'affiliation
 et diversifier les revenus du site.
@@ -159,7 +159,7 @@ données. Options de déploiement gratuites :
 **Étapes :**
 1. Pousser le dépôt sur GitHub (ce qui est fait sur la branche `claude/military-finance-site-j2ci8u`)
 2. Connecter Netlify / Vercel au dépôt
-3. Configurer votre nom de domaine (ex. `lasolde.fr`)
+3. Configurer votre nom de domaine (ex. `masolde.fr`)
 
 ---
 

@@ -13,6 +13,17 @@ document.addEventListener("DOMContentLoaded", function () {
   }, { threshold: 0.12 });
   document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
 
+  // Barre CTA collante : apparaît après avoir scrollé 600px
+  const sticky = document.getElementById("stickyCta");
+  if (sticky) {
+    const toggle = () => {
+      if (window.scrollY > 600) sticky.classList.add("show");
+      else sticky.classList.remove("show");
+    };
+    window.addEventListener("scroll", toggle, { passive: true });
+    toggle();
+  }
+
   // Accordéon FAQ
   document.querySelectorAll(".faq-q").forEach((btn) => {
     btn.addEventListener("click", () => {
