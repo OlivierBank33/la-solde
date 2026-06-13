@@ -68,8 +68,8 @@ header { position: sticky; top: 0; z-index: 200; background: rgba(7,11,19,0.72);
 .btn-primary:hover { box-shadow: 0 14px 40px rgba(232,193,90,0.45); }
 .btn-secondary { background: var(--surface-2); color: var(--text); border: 1px solid var(--border-strong); }
 .btn-secondary:hover { background: var(--surface-3); }
-.btn-cta { background: linear-gradient(135deg, var(--green), #27b888); color: #042b1e; padding: 13px 26px; font-size: 0.9rem; box-shadow: 0 10px 28px rgba(53,211,153,0.25); }
-.btn-cta:hover { box-shadow: 0 14px 36px rgba(53,211,153,0.4); }
+.btn-cta { background: linear-gradient(135deg, var(--gold), var(--gold-2)); color: #070b13; padding: 13px 26px; font-size: 0.9rem; box-shadow: 0 10px 28px rgba(232,193,90,0.28); }
+.btn-cta:hover { box-shadow: 0 14px 36px rgba(232,193,90,0.45); }
 .btn-block { width: 100%; }
 .btn-lg { padding: 17px 38px; font-size: 1.02rem; }
 .btn-ghost { background: transparent; border: 1px solid var(--border-strong); color: var(--text); }
