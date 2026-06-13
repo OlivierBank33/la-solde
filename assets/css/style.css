@@ -144,6 +144,9 @@ section { padding: 84px 0; position: relative; }
 .article-body ul, .article-body ol { padding-left: 24px; margin-bottom: 18px; }
 .article-body a { color: var(--blue); }
 .article-body strong { color: var(--text); }
+/* Les boutons gardent leur propre couleur de texte, même dans un article */
+.article-body a.btn-primary, .article-body a.btn-cta { color: #070b13; }
+.article-body a.btn-secondary, .article-body a.btn-ghost { color: var(--text); }
 
 /* ---------- TOC ---------- */
 .toc { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 20px 24px; margin-bottom: 36px; }
