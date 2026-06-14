@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://masolde.fr/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://masolde.fr/comparatifs.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://masolde.fr/simulateurs.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://masolde.fr/guides/solde-militaire.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://masolde.fr/guides/primes-indemnites.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://masolde.fr/guides/impots-opex.html</loc><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://masolde.fr/guides/retraite-militaire.html</loc><changefreq>yearly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://masolde.fr/guides/investir-immobilier.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://masolde.fr/guides/epargne-placements.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://masolde.fr/guides/banques-credits.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://masolde.fr/guides/mutuelles-assurances.html</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://masolde.fr/mentions-legales.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://masolde.fr/</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://masolde.fr/comparatifs.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://masolde.fr/simulateurs.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://masolde.fr/guides/solde-militaire.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://masolde.fr/guides/primes-indemnites.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://masolde.fr/guides/impots-opex.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://masolde.fr/guides/retraite-militaire.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://masolde.fr/guides/investir-immobilier.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://masolde.fr/guides/epargne-placements.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://masolde.fr/guides/banques-credits.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://masolde.fr/guides/mutuelles-assurances.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://masolde.fr/mentions-legales.html</loc><lastmod>2026-06-14</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
 </urlset>
